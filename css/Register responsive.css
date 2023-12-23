@@ -1,0 +1,99 @@
+@media screen and (max-width: 1092px) {
+    .container{
+      height: auto;
+    }
+    .header img{
+        width: 200px;
+        height: 30px;
+    }
+  .box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .text h1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 500px;
+  }
+  .text p {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 390px;    
+  }
+  .text button {
+    width: 250px;
+  }
+  .logo {
+    width: 100%;
+  }
+  .icon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 460px;
+  }
+  .text p {
+    text-align: center;
+    font-size: 1.1rem;
+    width: 430px;    
+  }
+  .text button {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 470px) {
+    .container{
+    height: auto;
+    }
+    .header img{
+        width: 180px;
+        height: 30px;
+    }
+    .text h1 {
+        text-align: center;
+        font-size: 1.6rem;
+        width: 270px;
+    }
+    .text p {
+        text-align: center;
+        font-size: 0.69rem;
+        width: 270px;
+    }
+    .text button {
+        width: 200px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .icon {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 4rem;
+    }
+    
+}
